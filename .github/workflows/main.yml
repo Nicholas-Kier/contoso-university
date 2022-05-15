@@ -3,7 +3,7 @@ name: Pack Contoso University Core
 on:
   push:
     paths:
-      - C:\Users\nikier\OneDrive - Microsoft\Documents\GitHub\contoso-university\DevOps_Workshop.zip/**
+      - contoso-university/**
   workflow_dispatch:
 
 jobs:
