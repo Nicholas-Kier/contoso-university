@@ -3,7 +3,7 @@ name: Pack Contoso University Core
 on:
   push:
     paths:
-      - contoso-university/**
+      - DevOps_Workshop/**
   workflow_dispatch:
 
 jobs:
@@ -13,10 +13,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: microsoft/powerplatform-actions/pack-solution@v0
         with:
-          solution-file: C:\Users\nikier\OneDrive - Microsoft\Documents\GitHub\contoso-university\DevOps_Workshop.zip
-          solution-folder: C:\Users\nikier\OneDrive - Microsoft\Documents\GitHub\contoso-university\DevOps_Workshop
+          solution-file: DevOps_Workshop.zip
+          solution-folder: DevOps_Workshop
           solution-type: Both
       - uses: actions/upload-artifact@v2
         with:
           name: packed-solution
-          path: out/
+          path: DevOps_Workshop/
