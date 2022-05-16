@@ -22,4 +22,4 @@ jobs:
           environment-url: https://productionjawn.crm.dynamics.com/
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
-          solution-file: DevOps_Workshop_managed.zip
+          solution-file: DevOps_Workshop.zip
