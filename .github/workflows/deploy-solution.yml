@@ -1,8 +1,8 @@
-name: Deploy DevOps_Workshop
+name: Deploy Contoso_University_Core
 
 on:
   workflow_run:
-    workflows: ["Pack DevOps Workshop"]
+    workflows: ["Pack Contoso_University_Core"]
     branches: [main]
     types:
       - completed
@@ -15,11 +15,11 @@ jobs:
     steps:
       - uses: dawidd6/action-download-artifact@v2
         with:
-          workflow: main.yml
+          workflow: pack-solution.yml
           name: packed-solution
       - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
           environment-url: productionjawn.crm.dynamics.com
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
-          solution-file: DevOps_Workshop.zip
+          solution-file: contoso_university_core_managed.zip
