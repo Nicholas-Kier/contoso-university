@@ -19,7 +19,7 @@ jobs:
           name: packed-solution
       - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
-          environment-url: productionjawn.crm.dynamics.com
+          environment-url: https://productionjawn.crm.dynamics.com/
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
-          solution-file: contoso_university_core_managed.zip
+          solution-file: DevOps_Workshop_managed.zip
