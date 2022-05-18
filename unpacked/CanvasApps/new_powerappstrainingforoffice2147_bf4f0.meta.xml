@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>new_powerappstrainingforoffice2147_bf4f0</Name>
+  <AppVersion>2022-05-16T01:36:56Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.22044.32.0</CreatedByClientVersion>
+  <MinClientVersion>3.22044.32.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22044.32","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20220513T214831Z-3.22044.32.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(129, 42, 141, 1)</BackgroundColor>
+  <DisplayName>Power Apps Training for Office_2147</DisplayName>
+  <Description>Learn how to build Microsoft Office components in PowerApps. This how-to guide provides step-by-step instructions and powerful resources for building powerful line of business applications.</Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"631c0fb0-c91e-4afb-8b11-cba5d6872f5e":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1573/1.0.1573.2770/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["SearchUser","UserPhotoMetadata","UserPhoto","Manager"]},"3e990f5f-a334-4e3e-960b-5ba326f81694":{"id":"/providers/microsoft.powerapps/apis/shared_planner","displayName":"Planner","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1513/1.0.1513.2549/planner/icon.png","dataSources":["Planner"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["ListMyPlansV2","ListBuckets","CreateTask","UpdateTaskDetails"]},"88440dcb-31dd-4475-b013-ba3ac5e68e51":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1573/1.0.1573.2770/office365/icon.png","dataSources":["Office365"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["SendEmail"]},"7492cf69-cc78-477d-9fc8-986387722984":{"id":"/providers/microsoft.powerapps/apis/shared_onenote","displayName":"OneNote (Business)","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1563/1.0.1563.2732/onenote/icon.png","dataSources":["OneNote(Business)"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["GetNotebooks","GetSectionsInNotebook","CreatePageInSection"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/new_powerappstrainingforoffice2147_bf4f0_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/new_powerappstrainingforoffice2147_bf4f0_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
